@@ -10,7 +10,7 @@ st. set_page_config(layout="wide")
 #      columns=['a', 'b', 'c'])
 
 # st.line_chart(chart_data)
-df = pd.read_csv('creditcard.csv')
+df = pd.read_csv('modelling_set (2).csv')
 X = df.drop('Class', axis=1)
 
 y = df['Class']
